@@ -4,18 +4,18 @@
           xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.0.0 http://maven.apache.org/xsd/settings-1.0.0.xsd">
 
     <servers>
-        <server>
-            <id>packagecloud.release</id>
-            <password>${env.PCLOUD}</password>
-        </server>
+       <!-- <server>
+        <id>packagecloud.release</id>
+        <password>${env.PCLOUD}</password>
+    </server>
         <server>
             <id>packagecloud.snapshot</id>
             <password>${env.PCLOUD}</password>
-        </server>
+        </server>-->
         <server>
             <id>github</id>
-            <username>springframeworkguru</username>
-            <password>${env.GIT_PWD}</password>
+            <username>sandersensahl@gmail.com</username>
+            <password>zxKL31=-</password>
         </server>
     </servers>
 </settings>

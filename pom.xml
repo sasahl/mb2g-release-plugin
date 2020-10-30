@@ -32,19 +32,19 @@
     </dependencies>
 
     <scm>
-        <developerConnection>scm:git:https://github.com/springframeworkguru/mb2g-release-plugin.git</developerConnection>
-        <url>https://github.com/springframeworkguru/mb2g-release-plugin</url>
+        <developerConnection>scm:git:https://github.com/sasahl/mb2g-release-plugin.git</developerConnection>
+        <url>https://github.com/sasahl/mb2g-release-plugin</url>
         <tag>HEAD</tag>
     </scm>
 
     <build>
-        <extensions>
+        <!--<extensions>
             <extension>
                 <groupId>io.packagecloud.maven.wagon</groupId>
                 <artifactId>maven-packagecloud-wagon</artifactId>
                 <version>0.0.6</version>
             </extension>
-        </extensions>
+        </extensions>-->
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
@@ -64,7 +64,7 @@
         </plugins>
     </build>
 
-    <distributionManagement>
+    <!--<distributionManagement>
         <repository>
             <id>packagecloud.release</id>
             <url>packagecloud+https://packagecloud.io/springframeworkguru/release</url>
@@ -73,5 +73,5 @@
             <id>packagecloud.snapshot</id>
             <url>packagecloud+https://packagecloud.io/springframeworkguru/snapshot</url>
         </snapshotRepository>
-    </distributionManagement>
+    </distributionManagement>-->
 </project>
